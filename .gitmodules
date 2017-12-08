@@ -1,8 +1,8 @@
-[submodule "kernel"]
-	path = linux-smaug
-	url = https://github.com/denysvitali/linux-smaug
-	branch = "4.15-rc2"
 [submodule "smaug-custom-initram"]
 	path = ramdisk/smaug-custom-initram
 	url = https://github.com/denysvitali/smaug-custom-initram
 	branch = master
+[submodule "linux-smaug"]
+	path = linux-smaug
+	url = https://github.com/denysvitali/linux-smaug
+	branch = 4.14-rc6
